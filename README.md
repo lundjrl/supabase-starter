@@ -1,11 +1,14 @@
-[![Deploy Next.js site to Pages](https://github.com/lundjrl/supabase-starter/actions/workflows/nextjs.yml/badge.svg)](https://github.com/lundjrl/Next-App-Template/actions/workflows/nextjs.yml)
+# Welcome to your CDK TypeScript project
 
+This is a blank project for CDK development with TypeScript.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
-## Getting Started
+## Useful commands
 
-First, install dependencies with `nvm use && yarn install`
-
-Then, run the development server with `yarn dev`
-
+* `npm run build`   compile typescript to js
+* `npm run watch`   watch for changes and compile
+* `npm run test`    perform the jest unit tests
+* `cdk deploy`      deploy this stack to your default AWS account/region
+* `cdk diff`        compare deployed stack with current state
+* `cdk synth`       emits the synthesized CloudFormation template

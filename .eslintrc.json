@@ -12,7 +12,14 @@
       }
     }
   },
-  "plugins": ["react-hooks", "@typescript-eslint", "import", "simple-import-sort", "unused-imports", "prettier"],
+  "plugins": [
+    "react-hooks",
+    "@typescript-eslint",
+    "import",
+    "simple-import-sort",
+    "unused-imports",
+    "prettier"
+  ],
   "extends": [
     "next/core-web-vitals",
     "plugin:react/recommended",
