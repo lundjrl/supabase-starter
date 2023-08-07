@@ -12,3 +12,7 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 * `cdk deploy`      deploy this stack to your default AWS account/region
 * `cdk diff`        compare deployed stack with current state
 * `cdk synth`       emits the synthesized CloudFormation template
+
+## Project directory
+* `webapp/` our front-end code. Next.js app
+* `https://supabase.com/dashboard/project/cnsdqzgcstteauvryzax/auth/providers` our supabase url
