@@ -9,7 +9,7 @@ webapp/node_modules
 # testing
 /coverage
 
-# next.js
+# next.js 
 /.next/
 /out/ 
 webapp/.next
