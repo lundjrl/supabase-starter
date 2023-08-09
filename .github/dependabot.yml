@@ -5,11 +5,11 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: 'npm'
+    directory: '/webapp'
     schedule:
-      interval: "weekly"
-      day: "saturday"
+      interval: 'weekly'
+      day: 'saturday'
     reviewers:
-      - "lundjrl"
+      - 'lundjrl'
     versioning-strategy: auto
