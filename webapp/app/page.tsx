@@ -1,6 +1,6 @@
 import React from 'react'
-import { Card } from '~/components/Card'
 
+import { Card } from '~/components/Card'
 import { getFriends } from '~/services/DatabaseService'
 
 export const revalidate = 60
