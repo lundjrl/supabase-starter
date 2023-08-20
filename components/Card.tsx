@@ -13,7 +13,13 @@ export const Card: React.FC<{ data: Props }> = ({ data }) => (
     className="w-[30rem] group border-2 border-b-4 border-gray-200 overflow-hidden rounded-xl hover:bg-gray-50">
     <div className="grid grid-cols-6 p-5 gap-y-2 dark:bg-white">
       <div>
-        <Image alt="gamer" src="https://picsum.photos/seed/2/200" className="rounded-full max-w-16 max-h-16" />
+        <Image
+          alt="gamer"
+          height="250"
+          width="100"
+          src="https://picsum.photos/seed/2/200"
+          className="object-fill rounded-full max-w-16 max-h-16"
+        />
       </div>
 
       <div className="col-span-5 ml-4 md:col-span-4">

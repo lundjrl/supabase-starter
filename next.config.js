@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    remotePatterns: [{ protocol: 'https', hostname: 'images.unsplash.com' }],
+    remotePatterns: [{ protocol: 'https', hostname: 'picsum.photos' }],
   },
   // output: 'standalone',
 }

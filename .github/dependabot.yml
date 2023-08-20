@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: 'npm'
-    directory: '/webapp'
+    directory: './'
     schedule:
       interval: 'weekly'
       day: 'saturday'
